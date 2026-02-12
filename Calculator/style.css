@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(320deg, #eb92be, #8ee1ff, #aaf683);
+  display: flex;
+  font-family: "Dosis", sans-serif;
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+}
+
+.wrapper {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  flex-basis: 400px;
+  height: 540px;
+  padding: 20px 35px;
+}
+
+.screen {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  font-size: 2.5rem;
+  text-align: right;
+  width: 326px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.calc-btns-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.calc-btns {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  flex-basis: 22%;
+  font-family: inherit;
+  font-size: 1.5rem;
+  height: 65px;
+}
+
+.calc-btns:last-child {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #fff;
+  background: #ff758f;
+}
+
+.calc-btns:last-child:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+.calc-btns:hover {
+  background-color: inherit;
+}
+
+.calc-btns:active {
+  background-color: #ffef78;
+}
+
+.double {
+  flex-basis: 48%;
+}
+
+.triple {
+  flex-basis: 74%;
+}
